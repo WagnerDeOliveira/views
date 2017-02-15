@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="container">
-      @for($i=0; $i < 10; $i++)
+      @for ($i=0; $i < 10; $i++)
           <h2>Boa noite</h2>
       @endfor
     </div>
