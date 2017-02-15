@@ -1,3 +1,14 @@
+@extends('layout')
+
+@section('content')
+  <div class="row">
+      <div class="col-md-6">
+        <h4>{{ $curso }}</h4>
+      </div>
+  </div>
+ @endsection
+
+{{--
 <!DOCTYPE html>
 <html>
   <head>
@@ -18,6 +29,7 @@
     <script type="text/javascript" src="/js/app.js">
   </body>
 </html>
+--}}
 
 <!-- comentario html(aparece no fonte da pagina) -->
 {{-- comentario blade(não aparece na pagina) --}}
